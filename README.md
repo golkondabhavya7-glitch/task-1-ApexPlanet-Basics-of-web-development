@@ -8,4 +8,4 @@ DURATION:6 WEEKS
 
 Apex Planet Internship – Task 1 A beginner-friendly web development project created using HTML, CSS, and JavaScript as part of the Apex Planet Internship. This task enhanced my understanding of front-end fundamentals and practical implementation.
 
-"C:\Users\golko\OneDrive\Pictures\Screenshots\Screenshot 2025-12-30 212418.png"
+"C:\Users\golko\OneDrive\Desktop\4602\SS.png"
