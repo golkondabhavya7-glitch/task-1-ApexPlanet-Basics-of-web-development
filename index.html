@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animals World</title>
+
+  <!-- CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #2b2b2b; /* dark cement background */
+      color: #f5f5f5;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #4caf50;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 16px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #3a3a3a;
+      border-radius: 12px;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.6);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 12px 0 6px;
+      color: #4caf50;
+    }
+
+    .card p {
+      font-size: 14px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background-color: #4caf50;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      background-color: #66bb6a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #1f1f1f;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Animals World</h1>
+   
+  </header>
+
+  <div class="container">
+
+    <!-- Tiger -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="Tiger">
+      <h3>Tiger</h3>
+      <p>The tiger is the largest species of the cat family and a powerful predator.</p>
+      <a href="https://en.wikipedia.org/wiki/Tiger" target="_blank">Read on Wikipedia</a>
+    </div>
+
+    <!-- Elephant -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg" alt="Elephant">
+      <h3>Elephant</h3>
+      <p>Elephants are the largest land animals, known for intelligence and memory.</p>
+      <a href="https://en.wikipedia.org/wiki/Elephant" target="_blank">Read on Wikipedia</a>
+    </div>
+
+    
+
+    <!-- Lion -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Lion">
+      <h3>Lion</h3>
+      <p>The lion is known as the king of the jungle and lives in social groups.</p>
+      <a href="https://en.wikipedia.org/wiki/Lion" target="_blank">Read on Wikipedia</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Animals World | Educational Purpose</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    window.onload = function () {
+      alert("Welcome to Animals World! Click on an animal to know more.");
+    };
+  </script>
+
+</body>
+</html>
+
+ 
+
